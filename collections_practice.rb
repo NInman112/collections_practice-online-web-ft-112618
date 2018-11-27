@@ -24,6 +24,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+<<<<<<< HEAD
   array.each {|x| x[2] = "$" }
 end
 
@@ -53,4 +54,8 @@ def add_s(array)
       element << "s"
     end
   end
+=======
+  array.each {|x| x[2] = "$"  binding.pry}
+
+>>>>>>> 1cb27e0018d4b43fa672c2d55765db486354000f
 end
